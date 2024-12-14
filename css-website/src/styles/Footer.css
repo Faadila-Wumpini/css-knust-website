@@ -1,0 +1,53 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* gap: 50px; */
+  height: 100vh;
+  background-color: whitesmoke;
+  padding: 20px 40px;
+}
+
+.header {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.footer .cssLogo {
+  width: 80px;
+  height: auto;
+  object-fit: contain;
+}
+
+.footer .connect h1,
+.footer .programmes h1 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.footer ul li {
+  list-style: none;
+  margin: 8px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  border-bottom: 2px solid lightgray;
+}
+
+.icons .icon {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+}
+
+.footer .bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 50px;
+  padding: 20px 50px;
+}

@@ -1,0 +1,37 @@
+.learnConnectGrow {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+  padding: 50px;
+  gap: 40px;
+}
+
+.learnConnectGrow .learn,
+.learnConnectGrow .connect,
+.learnConnectGrow .grow {
+  display: block;
+  margin: 0 auto;
+  border-top: 3px solid lightgray;
+}
+
+.learnImage,
+.connectImage,
+.growImage {
+  object-fit: contain;
+  width: 220px;
+  height: auto;
+}
+
+.text {
+  width: 220px;
+  margin: 25px 0px;
+  height: 78px;
+}
+
+.text p {
+  color: lightgray;
+}
+
+h1 {
+  margin-top: 20px;
+}
