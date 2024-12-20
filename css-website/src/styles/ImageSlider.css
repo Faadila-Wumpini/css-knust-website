@@ -1,0 +1,47 @@
+.slider {
+  width: 85vw;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.slider button {
+  opacity: 1;
+  height: 100%;
+  width: 5vw;
+  z-index: 1;
+  /* background-color: red; */
+}
+
+.slider button::before {
+  font-size: 30px;
+  color: black;
+}
+
+.slider button:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease 0s;
+}
+
+.slider .slick-list {
+  overflow: hidden;
+}
+
+.slider .slick-prev {
+  left: -75px;
+}
+
+.slider .slick-next {
+  right: -75px;
+}
+
+.slider .eventImage {
+  object-fit: contain;
+  height: auto;
+  width: 85vw;
+  border-radius: 10px !important;
+}
+
+.slider ul li button::before {
+  font-size: 15px;
+  color: black;
+}
