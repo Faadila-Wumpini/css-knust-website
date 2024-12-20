@@ -1,0 +1,78 @@
+.navbar a {
+  color: black;
+}
+.events {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(85, 231, 180, 0.142);
+  display: flex;
+  justify-content: center;
+}
+
+.design {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+  top: 130px;
+  right: 0px;
+  left: 25px;
+  align-items: center;
+}
+
+.design .text {
+  width: 400px;
+}
+
+.calendarImage {
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+.event {
+  width: 100%;
+  /* height: 100vh; */
+  background: linear-gradient(
+    180deg,
+    rgba(85, 231, 180, 0.142) 40%,
+    rgba(196, 234, 155, 0.753)
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.top h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.eventBtn {
+  padding: 10px;
+  border: 2px solid rgba(74, 48, 243, 0.804);
+  color: rgba(74, 48, 243, 0.804);
+  border-radius: 25px;
+  background-color: transparent;
+}
+
+.eventDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* .eventImage {
+  object-fit: contain;
+  height: auto;
+  width: 1000px;
+} */

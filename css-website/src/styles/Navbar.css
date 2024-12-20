@@ -15,12 +15,25 @@
   object-fit: contain;
 }
 
-.navbarLinks {
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: rgba(74, 48, 243, 0.804);
+}
+
+.nav-white,
+.nav-black {
   display: flex;
   gap: 15px;
 }
 
-a {
-  text-decoration: none;
+.nav-black a {
+  color: black;
+}
+
+.nav-white a {
   color: white;
 }
